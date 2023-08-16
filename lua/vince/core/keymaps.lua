@@ -1,4 +1,4 @@
-vim.g.mapleader = " "  -- setting up the space key to be leader key
+vim.g.mapleader = " " -- setting up the space key to be leader key
 
 local keymap = vim.keymap -- for concisness
 
@@ -22,7 +22,6 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") --  go to next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 
-
 -- plugin keymaps
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
@@ -35,3 +34,8 @@ keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>") -- find string in 
 keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>") -- find string under cursor in current working directory
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>") -- list open buffers in current neovim instance
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available help tags
+
+-- toggleterm
+keymap.set("n", "<leader>tt", ":ToggleTerm<CR>") -- open a toggleterm in a floating window
+keymap.set("n", "<leader>th", ":ToggleTerm direction=horizontal size=20<CR>") -- open a toggleterm in a horizontal split
+keymap.set("n", "<leader>tv", ":ToggleTerm direction=horizontal size=40<CR>") -- open a toggleterm in a vertical split

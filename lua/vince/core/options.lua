@@ -1,7 +1,6 @@
 local opt = vim.opt -- for conciseness
 
 -- spell checker
-opt.spelllang = "en-gb"
 opt.spell = true
 
 -- line numbers

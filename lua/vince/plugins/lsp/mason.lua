@@ -27,6 +27,7 @@ mason_lspconfig.setup({
 		"marksman",
 		"lua_ls",
 		"ltex",
+		"cmake",
 	},
 	-- auto-install configured servers (with lspconfig)
 	automatic_installation = true, -- not the same as ensure_installed

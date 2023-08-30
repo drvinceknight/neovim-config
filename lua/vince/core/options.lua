@@ -1,5 +1,9 @@
 local opt = vim.opt -- for conciseness
 
+-- textwidth
+opt.textwidth = 80
+opt.wrap = true
+
 -- spell checker
 opt.spell = true
 

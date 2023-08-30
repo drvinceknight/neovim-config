@@ -41,7 +41,6 @@ mason_null_ls.setup({
 		"black", -- python formatting
 		"ruff", -- python linting
 		"mypy", -- python type checker
-		"proselint", -- prose linter
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,

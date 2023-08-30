@@ -19,7 +19,6 @@ null_ls.setup({
 		formatting.black, -- python formatter
 		diagnostics.ruff, -- python linter
 		diagnostics.mypy, -- python typechecker
-		diagnostics.proselint, -- prose linter
 		formatting.prettier, -- formatter for a number of languages including markdown and yaml
 	},
 	-- configure format on save
